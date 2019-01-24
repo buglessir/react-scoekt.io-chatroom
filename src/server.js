@@ -4,7 +4,7 @@ var port = 4000;
 
 io.on('connection', (socket) => {
     console.log('a user connected');
-    socket.emit('update', '[ Welcome to ReactJS ChatRoom ]');
+    socket.emit('update', '[ Welcome to ReactJS Chat Room ]');
     socket.on('message', (msg) => {
         io.sockets.emit('update', '# ' + msg);
     });
