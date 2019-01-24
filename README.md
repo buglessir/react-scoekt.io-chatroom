@@ -1,5 +1,5 @@
 # ReactJS ChatRoom
-This is a simple ChatRoom with ReactJS and Socket.io
+This is a simple Chat Room with ReactJS and Socket.io
 
 ## How to use ?
 
