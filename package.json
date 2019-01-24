@@ -1,7 +1,7 @@
 {
     "name": "react-chatroom",
     "version": "1.0.0",
-    "description": "This is a simple example to create ChatRoom with ReactJS and Socket.IO",
+    "description": "This is a simple ChatRoom with ReactJS and Socket.IO",
     "main": "./src/index.js",
     "scripts": {
         "start": "webpack-dev-server --open --mode development --host 127.0.0.1 --port 3000",
