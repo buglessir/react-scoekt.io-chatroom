@@ -17,7 +17,7 @@ class ChatRoom extends Component {
 
     componentDidMount() {
         socket.on('connect', () => {
-            console.log('>>> ChatRoom connected <<<');
+            console.log('>>> Chat connected <<<');
         });
         socket.on('update', (msg) => {
             this.setState(prevState => ({
